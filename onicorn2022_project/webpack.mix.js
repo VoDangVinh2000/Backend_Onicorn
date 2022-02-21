@@ -12,6 +12,10 @@ const mix = require('laravel-mix');
  */
 
 mix.js('resources/js/app.js', 'public/js')
+.sass('resources/src/scss/_variables-dark.scss','public/src/scss')
+    .sass('resources/src/scss/_variables.scss','public/src/scss')
+    .sass('resources/css/custom/stucture/_topbar.scss','public/css/custom/structure')
+
     .postCss('resources/css/app.css', 'public/css', [
         //
     ]);
