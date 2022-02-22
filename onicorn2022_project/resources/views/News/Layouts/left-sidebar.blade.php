@@ -16,25 +16,25 @@
                             <i class="fe-user me-1"></i>
                             <span>My Account</span>
                         </a>
-
+        
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item">
                             <i class="fe-settings me-1"></i>
                             <span>Settings</span>
                         </a>
-
+        
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item">
                             <i class="fe-lock me-1"></i>
                             <span>Lock Screen</span>
                         </a>
-
+        
                         <!-- item-->
                         <a href="javascript:void(0);" class="dropdown-item notify-item">
                             <i class="fe-log-out me-1"></i>
                             <span>Logout</span>
                         </a>
-
+        
                     </div>
                 </div>
 
@@ -61,7 +61,7 @@
             <ul id="side-menu">
 
                 <li class="menu-title">Navigation</li>
-
+                
                 <li>
                     <a href="index.html">
                         <i class="mdi mdi-view-dashboard-outline"></i>
@@ -126,7 +126,7 @@
                     <a href="apps-projects.html">
                         <i class="mdi mdi-briefcase-variant-outline"></i>
                          <span> Projects </span>
-                    </a>
+                    </a>    
                 </li>
 
                 <li>
@@ -232,7 +232,7 @@
                         <ul class="nav-second-level">
                             <li>
                                 <a href="layouts-horizontal.html">Horizontal</a>
-                            </li>
+                            </li>                       
                             <li>
                                 <a href="layouts-preloader.html">Preloader</a>
                             </li>
