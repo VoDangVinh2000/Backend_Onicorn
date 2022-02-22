@@ -16,8 +16,8 @@
 </head>
 <body>
     <div id="wrapper">
-        {{View::make('News.Layouts.topbar')}}
-        {{View::make('News.Layouts.left-sidebar')}}
+        {{View::make('Layouts.topbar')}}
+        {{View::make('Layouts.left-sidebar')}}
         @yield('content')
     </div>
     

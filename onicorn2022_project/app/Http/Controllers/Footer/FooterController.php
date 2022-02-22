@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\News;
+namespace App\Http\Controllers\Footer;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class NewsController extends Controller
+class FooterController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,8 @@ class NewsController extends Controller
      */
     public function index()
     {
-        return view('Layouts.master');
+        //
+        return view('Footer.index');
     }
 
     /**

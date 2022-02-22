@@ -82,6 +82,32 @@ overflow-y: auto;
                         <span> News </span>
                         <span class="menu-arrow"></span>
                     </a>
+                    {{-- <div class="collapse" id="email">
+                        <ul class="nav-second-level">
+                            <li>
+                                <a href="email-inbox.html">Header</a>
+                            </li>
+                            <li>
+                                <a href="email-templates.html">Footer</a>
+                            </li>
+                            <li>
+                                <a href="email-templates.html">Multi_Level_MenuHeader</a>
+                            </li>
+                            <li>
+                                <a href="email-templates.html">Social_Footer</a>
+                            </li>
+                            <li>
+                                <a href="email-templates.html">SubMenu_Header</a>
+                            </li>
+                        </ul>
+                    </div> --}}
+                </li>
+                <li>
+                    <a href="#email" data-bs-toggle="collapse">
+                        <i class="fa fa-pencil-square-o"></i>
+                        <span> Layouts </span>
+                        <span class="menu-arrow"></span>
+                    </a>
                     <div class="collapse" id="email">
                         <ul class="nav-second-level">
                             <li>
@@ -94,7 +120,7 @@ overflow-y: auto;
                                 <a href="email-templates.html">Multi_Level_MenuHeader</a>
                             </li>
                             <li>
-                                <a href="email-templates.html">Socia_Footer</a>
+                                <a href="email-templates.html">Social_Footer</a>
                             </li>
                             <li>
                                 <a href="email-templates.html">SubMenu_Header</a>
